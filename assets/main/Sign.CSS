@@ -1,0 +1,27 @@
+.m-login.m-login--6 .m-login__wrapper .m-login__head{
+    right: auto;
+    text-align: center;
+    position: relative;
+}
+.m-login.m-login--6 .m-login__aside .m-grid__item .m-grid__item .m-login__subtitle {
+    color: #ffffff7d;
+}
+.m--font-brown{
+    color: #FC934B;
+}
+.m-link:hover {
+    color: #F87114;
+}
+.m-login.m-login--6 .m-login__wrapper .m-login__body .m-login__signin .m-login__options{
+    justify-content: space-around;
+}
+.m-login.m-login--6 .m-login__wrapper .m-login__body .m-login__signin .m-login__options>a {
+    flex: 0;
+}
+.m-login.m-login--6 .m-login__wrapper .m-login__body .m-login__signin .m-login__action>a .btn {
+    background: #FC934B !important;
+    border: #FC934B !important;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
