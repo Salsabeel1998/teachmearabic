@@ -53,3 +53,23 @@
     background-color: lightgray !important;
     width: 4rem !important;
    }
+   .invoice{
+    background: #f1f1f1;
+   }
+   .justify-content-center{
+       justify-content: center;
+   }
+   .bg-white{
+       background-color: white;
+   }
+   .m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+    margin-top: 4rem;
+    
+    padding: 4rem 0 4rem 0;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo {
+    padding-top: 7rem;
+}
+.justify-content-space_between{
+    justify-content: space-between;
+}
