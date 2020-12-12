@@ -226,7 +226,7 @@ color: #707070;
   position:absolute;
   z-index: 5;
   right: 0;
-  bottom: -1;
+  bottom: -1px;
 }
 .img-carchters{
 position: absolute;
@@ -292,9 +292,9 @@ height: 100%;
   width: 25px !important;
   height: 25px !important;
   border: 1px solid #707070;
-  bottom: -3px;
+  bottom: -5px;
   border-radius: 50%;
-  right: -3px;
+  right: -5px;
  
 }
 
