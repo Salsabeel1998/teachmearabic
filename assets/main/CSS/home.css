@@ -101,7 +101,7 @@
     color: #C9372A !important;
 }
 .section1{
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -148,11 +148,28 @@
   font-family: system-ui;
   width: inherit;
   font-weight: bold;
+  overflow: hidden;
 }
-.btn-regiser:hover {
-  color: #FED252;
+.btn-regiser .layer {
+  color: #C9372A;
+  border-radius: 32px;
+  position: absolute;
+  top: -90px;
+  width: 100%;
+  left: 0;
+  padding: 5px 5px;
+  background-color: #FED252;
+  border: 5px solid #C9372A;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;}
+.btn-regiser:hover .layer {
+  top: 0px;
+  bottom: 0px;
+}
 
-}
 .carousel .carousel-indicators li {
   width: 20px;
   height: 20px;
@@ -340,6 +357,14 @@ position: absolute;
 bottom: -20px;
 left: 25%;
 }
+.btn-details:hover {
+  background-color: #eaeaea;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
 .circle-6-month{
   padding: 2rem 3rem 3rem 3rem;
   color: #C9372A;
@@ -353,6 +378,11 @@ background-color: #FDFBEB;
 .btn-details-6-month{
   color: white !important;
   background-color: #C9372A !important;
+}
+.btn-details-6-month:hover {
+  color: #C9372A !important;
+  border: 4px solid #C9372A!important;
+  background-color: #FED252!important;
 }
 /*******Section4********/
 .fas .fa-play{
@@ -440,6 +470,9 @@ background-color: #FDFBEB;
   font-weight: bold;
   height: 53px;
   width: 212px;
+}
+.btn-send:hover {
+  background-color:#fbbf10 !important;
 }
 .img-red-charachter{
   position:absolute;
@@ -685,3 +718,4 @@ text-align: center;
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  }
+/*************Animation******/
