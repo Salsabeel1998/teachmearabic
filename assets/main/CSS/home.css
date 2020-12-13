@@ -582,6 +582,12 @@ display: none;
   background-image: none;
   background-color: #C9372A;
 }
+.video-bg{
+  height: 380px;
+}
+.mobile-width{
+  width: 80px;
+}
   }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -643,6 +649,12 @@ text-align: center;
 .footer{
   background-image: none;
   background-color: #C9372A;
+}
+.video-bg{
+  height: 380px;
+}
+.mobile-width{
+  width: 80px;
 }
  }
 
