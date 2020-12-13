@@ -578,6 +578,10 @@ display: none;
 .order1{
   order: 1;
 }
+.footer{
+  background-image: none;
+  background-color: #C9372A;
+}
   }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -636,6 +640,10 @@ text-align: center;
 .order1{
   order: 1;
 }
+.footer{
+  background-image: none;
+  background-color: #C9372A;
+}
  }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -680,6 +688,10 @@ text-align: center;
 }
 .order1{
   order: 1;
+}
+.footer{
+  background-image: none;
+  background-color: #C9372A;
 }
  }
 
