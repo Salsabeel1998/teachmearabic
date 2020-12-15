@@ -334,11 +334,30 @@ height: 100%;
   color: #333333;
   font-family: system-ui;
   font-weight: 400;
-  padding: 4rem 3rem 4rem 3rem;
+  padding: 3rem 3rem 3rem 3rem;
   border: 1px solid #D6D6D6;
   width: 150px;
   height: 150px;
   border-radius: 100%;
+}
+.large_box:hover {
+  border: 3px solid #C9372A;
+background-color: #FDFBEB;
+}
+.large_box:hover > .small-circle > .circle-text {
+  padding: 2rem 3rem 3rem 3rem;
+  color: #C9372A;
+  border: 4px solid #C9372A;
+  background-color: #FED252;
+}
+.large_box:hover > .btn-details{
+  color: white !important;
+  background-color: #C9372A !important;
+}
+.large_box:hover > .btn-details:hover {
+  color: #C9372A !important;
+  border: 4px solid #C9372A!important;
+  background-color: #FED252!important;
 }
 .feture-text{
   font-size: 16px;
@@ -365,25 +384,7 @@ left: 25%;
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
 }
-.circle-6-month{
-  padding: 2rem 3rem 3rem 3rem;
-  color: #C9372A;
-  border: 4px solid #C9372A;
-  background-color: #FED252;
-}
-.large-box-6-month{
-  border: 3px solid #C9372A;
-background-color: #FDFBEB;
-}
-.btn-details-6-month{
-  color: white !important;
-  background-color: #C9372A !important;
-}
-.btn-details-6-month:hover {
-  color: #C9372A !important;
-  border: 4px solid #C9372A!important;
-  background-color: #FED252!important;
-}
+
 /*******Section4********/
 .fas .fa-play{
   font-size: 3.3rem !important;
