@@ -75,7 +75,7 @@
  }
 @media (min-width: 992px){
   .text-header, .text-header2 {
-
+font-size: 40px;
     line-height: 65px;
 }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -84,7 +84,6 @@
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     border-left: 0.5px solid #D8D6D6;
-    height: 38px;
 }
 .remove-border-left{
     border-left: none !important;
@@ -124,7 +123,7 @@
 .text-header,.text-header2 {
   font-family: system-ui;
   color: #C9372A;
-  font-size: 45px;
+  font-size: 40px;
 
 }
 
@@ -1001,10 +1000,10 @@ text-align: center;
     z-index: 10;
 }
 .carousel-indicators {
-  bottom: 85px;
+  bottom: 95px;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 17px;
+  font-size: 13px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 1rem;
@@ -1047,4 +1046,10 @@ text-align: center;
 }
 .btn-download{
   height: auto;
+}
+@media (min-width: 1500px){
+.pt-12rem{
+  padding-top: 12rem;
+}
+
 }
