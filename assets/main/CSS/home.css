@@ -221,7 +221,7 @@ color: #707070;
 }
 .hr{
   border: none;
-  height: 54x;
+  height: 5px;
   background-color: #C9372A;
   width: 50%;
 }
@@ -415,34 +415,24 @@ left: 25%;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  padding-bottom: 13rem !important;
+
 }
 .header-section5{
-  font-size: 76px;
+  font-size: 66px;
   font-weight: bold;
   color: white;
 }
-.img-person{
-  border: 8px solid white;
-  border-radius: 100%;
-}
-.justify-content-space-evenly{
-  justify-content:space-evenly ;
-}
-.team{
-  margin-top: -82px;
-}
+
 .text-section5{
-  color: #707070;
+  color: white;
   font-size: 42px;
 }
 /**************Section6 Contact ***********/
 .section6-contact{
   background-image: url(../img/bg-Section3.png);
   background-repeat: no-repeat;
-  /*background-position: center center;*/
+
   background-size: cover;
-  margin-top: 10rem;
   padding-bottom: 12rem;
 }
 .text-contact{
@@ -483,7 +473,7 @@ left: 25%;
 .footer{
   background-image: url(../img/footer-bg.png);
   background-repeat: no-repeat;
- background-position: right;
+ background-position: top;
   background-size: cover;
 }
 .footer-title{
@@ -492,17 +482,29 @@ left: 25%;
   font-weight: bold;
 }
 .links{
-  font-size: 13px;
+  font-size: 20px;
   color: white;
 }
+.link-active{
+  color: #FED252 !important;
+}
+
 .links:hover {
   color: white;
 }
-.department-title{
+.breif{
+  color: white;
+  font-size: 25px;
+}
+.logo-text{
   color: white;
   font-weight: bold;
-  font-size: 26px;
   font-family: system-ui;
+  font-size: 20px;
+}
+.justify-content-flex-end{
+  justify-content: flex-end;
+  margin-top: -25px;
 }
 .icon-social{
   padding: 14px 14px;
@@ -511,11 +513,19 @@ left: 25%;
   height: 45px;
   width: 45px;
   text-align: center;
+  margin-left: 30px;
 }
 .icon{
   font-size: 1.5rem;
   color: white;
   background-color: #AD251C;
+}
+.footer ul li{
+  color: white;
+}
+.border-bottom-link{
+  border-bottom: 1px solid #D54848;
+  width: 155px;
 }
 /***********Media quires*******/
 .login-text{
@@ -682,6 +692,9 @@ display: none;
 .horse-column{
   display: none
 }
+.justify-content-flex-end {
+  justify-content: center;
+}
   }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -843,6 +856,10 @@ text-align: center;
 .horse-column{
   display: none
 }
+.justify-content-flex-end {
+  justify-content: center;
+}
+
  }
 
 
@@ -919,6 +936,9 @@ text-align: center;
 .justify-content-center-ipad{
   justify-content: center;
 }
+.justify-content-flex-end {
+  justify-content: center;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -957,3 +977,17 @@ text-align: center;
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  }
 /*************Animation******/
+.language{
+  color: #C9372A !important;
+  border: 1px solid #C9372A;
+  border-radius: 10px;
+  border-left: 1px solid #C9372A !important;
+  font-size: 17px !important;
+  width: fit-content;
+}
+.mboile-width{
+  width: -webkit-fill-available;
+}
+.rounded-video{
+  border-radius: 50px;
+}
