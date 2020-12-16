@@ -1023,3 +1023,6 @@ text-align: center;
 .rounded-video{
   border-radius: 50px;
 }
+.brif-link:hover {
+  text-decoration: none;
+}
