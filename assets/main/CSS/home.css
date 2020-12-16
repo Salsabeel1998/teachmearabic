@@ -74,6 +74,10 @@
     color: #7A0A03;
  }
 @media (min-width: 992px){
+  .text-header, .text-header2 {
+
+    line-height: 65px;
+}
     .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
