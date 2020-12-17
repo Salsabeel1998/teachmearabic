@@ -79,8 +79,8 @@ font-size: 40px;
     line-height: 65px;
 }
     .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     border-left: 0.5px solid #D8D6D6;
@@ -160,7 +160,7 @@ font-size: 40px;
   top: -90px;
   width: 100%;
   left: 0;
-  padding: 5px 5px;
+  padding: 11px 5px;
   background-color: #FED252;
   border: 5px solid #C9372A;
   transition: all 0.3s ease;
@@ -540,6 +540,42 @@ left: 25%;
 .display-n{
   display: none
 }
+form {
+  background: #ffffff;
+  padding: 6px 10px;
+  border: 5px solid #FED252;
+  position: relative;
+  border-radius: 50px;
+}
+form .btn-regiser {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  /* bottom: 0; */
+  border: 0;
+  font-size: 13px;
+  padding: 1.3rem 1.4rem !important;
+  margin: 3px;
+  background: #C9372A;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  font-size: 14px !important;
+}
+form input[type="email"] {
+  padding: 4px;
+  text-align: right;
+  width: 100%;
+  background: #ffffff;
+  border: 0;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: system-ui;
+}
+form input[type="text"]:focus {
+  border: none;
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
   .display-u{
@@ -593,7 +629,7 @@ display: none;
 }
 
 .carousel-indicators {
-  bottom: -10px;
+  bottom: -85px;
 }
 .section-3{
   background-image: none;
@@ -714,6 +750,33 @@ display: none;
 .justify-content-flex-end {
   justify-content: center;
 }
+form .btn-regiser {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border: 0;
+  padding: 1.1rem 0.9rem !important;
+  margin: 3px;
+  background: #C9372A;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  font-size: 11px !important;
+}
+form input[type="email"] {
+  padding: 4px;
+  text-align: right;
+  width: 100%;
+  background: #ffffff;
+  border: 0;
+  height: 39px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-family: system-ui;
+}
+.btn-regiser .layer {
+  display: none;
+  }
   }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -889,7 +952,33 @@ text-align: center;
 .justify-content-flex-end {
   justify-content: center;
 }
-
+form .btn-regiser {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border: 0;
+  padding: 1.1rem 0.9rem !important;
+  margin: 3px;
+  background: #C9372A;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  font-size: 11px !important;
+}
+form input[type="email"] {
+  padding: 4px;
+  text-align: right;
+  width: 100%;
+  background: #ffffff;
+  border: 0;
+  height: 39px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-family: system-ui;
+}
+.btn-regiser .layer {
+  display: none;
+  }
  }
 
 
@@ -925,7 +1014,7 @@ text-align: center;
   margin-top: -50px;
 }
 .carousel-indicators {
- bottom: -10px;
+  bottom: -85px;
 }
 .height-100{
   height: 100%;
@@ -989,6 +1078,12 @@ text-align: center;
 .section1{
   min-height: 1360px;
 }
+form .btn-regiser {
+  padding: 1.3rem 1.4rem !important;
+}
+.btn-regiser .layer {
+display: none;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -1003,7 +1098,7 @@ text-align: center;
   bottom: 95px;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 13px;
+  font-size: 20px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 1rem;
@@ -1052,4 +1147,14 @@ text-align: center;
   padding-top: 12rem;
 }
 
+}
+.display-none{
+  display: none;
+}
+.btn-english{
+  right: 0;
+  left: 100%;
+}
+form input[type="email"].input-english{
+  text-align: left;
 }
