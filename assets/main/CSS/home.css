@@ -1098,11 +1098,11 @@ display: none;
   bottom: 95px;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 20px;
+  font-size: 17px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .img-carchters {
   position: absolute;
@@ -1110,6 +1110,15 @@ display: none;
   right: -9%;
 }
   }
+  @media (max-width: 1513px) and (min-width: 1401px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+      font-size: 17px;
+    }
+}
   @media (min-width: 1000px) and (max-width: 1265px) {
     .carousel-indicators {
       bottom: -6px;
