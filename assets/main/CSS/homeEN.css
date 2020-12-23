@@ -146,4 +146,10 @@ body{
   
 }
 
+@media (min-width: 1514px) and (max-width: 1731px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+  }
+  }
 
