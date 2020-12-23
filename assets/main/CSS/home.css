@@ -576,6 +576,9 @@ form input[type="email"] {
 form input[type="text"]:focus {
   border: none;
 }
+.img-download{
+  width:100px ;
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
   .display-u{
@@ -777,6 +780,12 @@ form input[type="email"] {
 .btn-regiser .layer {
   display: none;
   }
+  .img-download {
+    width: 130px;
+}
+.padding-mobile{
+  padding-right: 20px;
+}
   }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -979,6 +988,12 @@ form input[type="email"] {
 .btn-regiser .layer {
   display: none;
   }
+  .img-download {
+    width: 130px;
+}
+.padding-mobile{
+  padding-right: 20px;
+}
  }
 
 
@@ -1084,6 +1099,9 @@ form .btn-regiser {
 .btn-regiser .layer {
 display: none;
 }
+.justify-content-center-mobile{
+  padding-right: 13px;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -1098,7 +1116,7 @@ display: none;
   bottom: 95px;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 12px;
+  font-size: 15px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 0.5rem;
@@ -1122,6 +1140,12 @@ display: none;
     }
 
 }
+@media (min-width: 992px) and (max-width: 999px) {
+
+  .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    font-size: 10px;
+  }
+    }
   @media (min-width: 1000px) and (max-width: 1265px) {
     .carousel-indicators {
       bottom: -6px;
@@ -1130,7 +1154,7 @@ display: none;
     margin-top: 60px;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-  font-size: 9px;
+  font-size: 12px;
 }
   }
 
