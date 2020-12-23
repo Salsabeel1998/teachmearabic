@@ -1128,8 +1128,7 @@ display: none;
 }
   }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+
 /*************Animation******/
 .language{
   color: #C9372A !important;
@@ -1166,4 +1165,10 @@ display: none;
 }
 form input[type="email"].input-english{
   text-align: left;
+}
+@media (min-width: 1514px) and (max-width: 1731px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
 }
