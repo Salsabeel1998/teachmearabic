@@ -1129,6 +1129,9 @@ display: none;
   .section2 {
     margin-top: 60px;
 }
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  font-size: 9px;
+}
   }
 
 
