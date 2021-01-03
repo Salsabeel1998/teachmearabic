@@ -168,6 +168,8 @@ body{
   .img-red-charachter {
     position: absolute;
     margin-top: -16%;
+    right: 0;
+    z-index: -1;
 }
 @media (max-width: 1513px) and (min-width: 1401px){
     .navbar-expand-lg .navbar-nav .nav-link {

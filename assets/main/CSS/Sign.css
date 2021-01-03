@@ -1,0 +1,157 @@
+body{
+    background-color: #FAFAFA;
+}
+.register-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #C9372A;
+}
+.register-hr{
+    border: none;
+    height: 2px;
+    background-color: #F0F0F0;
+    width: 92%;
+}
+.socialmedia-sign{
+    font-size: 20px;
+    color: #CCCBCB;
+    font-family: system-ui;
+    font-weight: 300;
+    position: absolute;
+    background-color: white;
+}
+.btn-socialMedia{
+    border: 2px solid #F0F0F0;
+    border-radius: 15px;
+    font-size: 20px !important;
+    font-family: system-ui !important;
+    width: 220px;
+    height: 62px;
+    text-transform: initial;
+}
+.btn-facebook{
+    color: #42609D !important;
+}
+.btn-google{
+    color: #DF4B32;
+}
+.btn-google:hover {
+    color: #DF4B32;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.icon-facebook{
+    padding: 8px 17px;
+    background-color: #42609D;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 10px;
+}
+.icon-google{
+    padding: 8px 14px;
+    background-color: #DF4B32;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 10px;
+}
+.input-register{
+    height: 60px;
+    border: 2px solid #FED252;
+    border-radius: 15px;
+}
+.m-input-icon .m-input-icon__icon i {
+    color: #E6E6E6;
+}
+::-webkit-input-placeholder {
+    color: #DEDBDB !important;
+    font-size: 16px !important;
+    font-family: system-ui !important;
+  }
+  .form-control:focus {
+    border-color: #FED252 !important;
+  }
+.why-learningArabic-text{
+    font-size: 20px;
+    font-family: system-ui;
+    color: #C9372A;
+    font-weight: bolder;
+}
+.m-radio{
+    font-size: 20px;
+    font-family: system-ui;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.m-radio>span, .m-checkbox>span {
+    top: 7px;
+}
+.input-span{
+    width: 14px;
+    height: 14px;
+    background-color: #CCCBCB;
+    border: none;
+    border-radius: 100%;
+}
+.privacy{
+    font-size: 20px;
+    font-family: system-ui;
+    color: #CCCBCB;
+}
+.m-radio>span, .m-checkbox>span {
+    height: 14px;
+    width: 14px;
+}
+.privacy-link{
+    color: #CCCBCB;
+    text-decoration: underline;
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+    .btn-socialMedia {
+        width: 200px;
+        height: 62px;
+    }
+}
+.btn-register{
+    background-color: #C9372A;
+    border: 2px solid #FED252;
+    width: 483px;
+    height: 60px;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px !important;
+}
+@media (min-width: 1200px) {
+    .padding-span{
+        padding-right: 1.05rem!important;
+    }
+}
+@media (max-width: 575px){
+    .register-title {
+        font-size: 20px;
+    }
+    .socialmedia-sign {
+        font-size: 16px;
+    }
+    .why-learningArabic-text {
+    font-size: 18px;
+}
+    .m-radio {
+     font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .register-title {
+        font-size: 20px;
+    }
+    .socialmedia-sign {
+        font-size: 16px;
+    }
+    .why-learningArabic-text {
+    font-size: 18px;
+}
+    .m-radio {
+     font-size: 16px;
+    }
+}
