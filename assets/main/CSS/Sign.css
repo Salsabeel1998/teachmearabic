@@ -98,6 +98,7 @@ body{
     font-size: 20px;
     font-family: system-ui;
     color: #CCCBCB;
+    font-weight: 400;
 }
 .m-radio>span, .m-checkbox>span {
     height: 14px;
@@ -116,12 +117,49 @@ body{
 .btn-register{
     background-color: #C9372A;
     border: 2px solid #FED252;
-    width: 483px;
+    width: 100%;
     height: 60px;
     color: white;
     border-radius: 15px;
     font-size: 20px !important;
 }
+.btn-register:hover {
+    color: white;  
+    background-color: #ab2317;
+}
+.forgetPassword{
+    color: #707070;
+    font-size: 20px;
+    font-family: system-ui;
+    text-decoration: underline;
+}
+.m-checkbox {
+    color: #707070;
+    font-size: 20px !important;
+    font-family: system-ui;
+    font-weight: 400;
+}
+.img-red-charachter {
+    z-index: -1;
+}
+.m-checkbox>span:after {
+    transform: rotate(45deg);
+}
+.btn-SignUp{
+    width: 249px;
+    height: 60px;
+    font-size: 17px !important;
+    color: #C9372A;
+    background-color: #FED252;
+    border-radius: 15px;
+    text-transform: inherit;
+    font-weight: 600;
+}
+.btn-SignUp:hover {
+    color: #C9372A;
+    background-color: #F5C741;
+}
+
 @media (min-width: 1200px) {
     .padding-span{
         padding-right: 1.05rem!important;
@@ -140,6 +178,15 @@ body{
     .m-radio {
      font-size: 16px;
     }
+    .forgetPassword {
+        font-size: 15px;
+    }
+    .m-checkbox {
+        font-size: 15px !important;
+    }
+    .privacy {
+        font-size: 15px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .register-title {
@@ -153,5 +200,14 @@ body{
 }
     .m-radio {
      font-size: 16px;
+    }
+    .forgetPassword {
+        font-size: 15px;
+    }
+    .m-checkbox {
+        font-size: 15px !important;
+    }
+    .privacy {
+        font-size: 15px;
     }
 }
