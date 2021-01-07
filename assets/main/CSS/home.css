@@ -472,6 +472,7 @@ left: 25%;
 .img-red-charachter{
   position:absolute;
   margin-top: -20%;
+
 }
 /**************Footer************/
 .footer{
@@ -578,6 +579,99 @@ form input[type="text"]:focus {
 }
 .img-download{
   width:100px ;
+}
+/************** Packages page *****************/
+.Packages-title{
+  font-size: 36px;
+  color: #C9372A;
+}
+.Packages-title_text{
+  font-size: 22px;
+  color: #333333;
+  font-family: system-ui;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+  display: table-cell;
+  font-size: 20px;
+
+
+}
+.bg-white{
+  background-color: white;
+}
+.m-datatable__row:hover {
+  background-color: white !important;
+}
+.m-datatable__cell:nth-child(1) {
+  background-color:white !important
+}
+.bg-yellow{
+  background-color: #FED252;
+}
+.bg-green{
+  background-color: #7CB949; 
+}
+.bg-blue{
+  background-color: #2C628E; 
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row{
+  background-color: #FAFAFA;
+}
+
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row {
+  background-color: transparent;
+}
+.m-datatable.m-datatable--default>.m-datatable__pager {
+  display: none
+}
+.z-index--1{
+  z-index: -1;
+}
+.text-red{
+  color: #C9372A;
+}
+.box-package{
+  background-color: #FAFAFA;
+  text-align: center;
+  border-radius: 15px;
+}
+.price{
+  color: #707070;
+  font-size: 60px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #333333 !important;
+  background-color: #FAFAFA;
+  border: 2px solid  #C9372A;
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+  color: #333333;
+  font-size: 25px;
+  background-color: #FAFAFA;
+  border-radius: 15px;
+  width: 198px;
+  font-family: system-ui;
+  font-weight: 400;
+}
+.nav.nav-pills .nav-item, .nav.nav-tabs .nav-item {
+  margin-right: 15px;
+}
+.btn-package{
+  margin-bottom: 0;
+  width: -webkit-fill-available;
+  font-size: 20px !important;
+  font-weight: bold;
+  padding: 0.5rem 2.4rem !important;
+  border-radius: 15px;
+}
+.basic-box{
+  box-shadow: 0px 10px 10px rgb(0,0,0,0.17);
+}
+.nav.nav-pills .nav-item:first-child, .nav.nav-tabs .nav-item:first-child {
+  margin-right: 15px;
 }
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
@@ -785,6 +879,24 @@ form input[type="email"] {
 }
 .padding-mobile{
   padding-right: 20px;
+}
+.price {
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+  font-size: 13px;
+}
+.Packages-title_text {
+  font-size: 15px;
+  text-align: center;
+
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+  font-size: 17px;
+}
+.Packages-title {
+  font-size: 23px;
 }
   }
 
@@ -994,6 +1106,31 @@ form input[type="email"] {
 .padding-mobile{
   padding-right: 20px;
 }
+.price {
+  font-size: 50px;
+  padding-bottom: 0px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+  font-size: 13px;
+}
+.price {
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+  font-size: 13px;
+}
+.Packages-title_text {
+  font-size: 15px;
+  text-align: center;
+
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+  font-size: 17px;
+}
+.Packages-title {
+  font-size: 23px;
+}
  }
 
 
@@ -1102,6 +1239,22 @@ display: none;
 .justify-content-center-mobile{
   padding-right: 13px;
 }
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+  font-size: 22px;
+  width: 170px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+  font-size: 15px;
+}
+.Packages-title {
+  font-size: 30px;
+}
+.Packages-title_text {
+  font-size: 20px;
+}
+.price {
+  font-size: 40px;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -1155,6 +1308,27 @@ display: none;
 }
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
   font-size: 12px;
+}
+.Packages-title {
+  font-size: 30px;
+}
+.Packages-title_text {
+  font-size: 20px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+  font-size: 15px;
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+  font-size: 20px;
+  width: 168px;
+}
+.price {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn-package {
+  font-size: 14px !important;
 }
   }
 
