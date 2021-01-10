@@ -630,6 +630,9 @@ form input[type="text"]:focus {
 .text-red{
   color: #C9372A;
 }
+.text-red:hover {
+  color: #C9372A;
+}
 .box-package{
   background-color: #FAFAFA;
   text-align: center;
@@ -673,8 +676,133 @@ form input[type="text"]:focus {
 .nav.nav-pills .nav-item:first-child, .nav.nav-tabs .nav-item:first-child {
   margin-right: 15px;
 }
+/****************Payments****************/
+.payment-title_text{
+  font-size: 22px;
+  color: #292929;
+}
+.payment_info{
+  color: #B2B1B1;
+  font-size: 25px;
+}
+
+
+label {
+  width: 280px;
+  border: 2px solid #FED252 !important;
+  color: #CCCBCB !important;
+  font-size: 25px !important;
+  border-radius: 15px !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+input.radio:empty {
+display:none
+}
+
+input.radio:empty ~ label {
+	position: relative;
+	float: right;
+	line-height: 3.5em;
+
+
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #fff;
+}
+
+input.radio:checked ~ label:before {
+	background-color: #C9372A;
+	text-indent: .9em;
+	color: #fff;
+	background-color: #C9372A;
+}
+
+input.radio:checked ~ label {
+	color: #fff !important;
+  background-color: #C9372A;
+}
+.input-payment{
+  width: 95.5%;
+  border: 2px solid #FED252 !important;
+  color: #CCCBCB !important;
+  font-size: 25px !important;
+  border-radius: 15px !important;
+  text-align: center;
+  font-weight: 600;
+  height: 89px;
+  background-color: white !important;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
+.justify-content-flexend{
+  justify-content: flex-end;
+}
+.visa-image{
+  height: 40px !important;
+  padding-right: 20px;
+}
+.cardNo{
+  width: 440px;
+  height: 80px;
+  font-weight: 600 !important;
+}
+.cardYY,.cardMM,.cardCCV{
+  width: 120px;
+  height: 80px;
+  border: 2px solid #FED252;
+  border-radius: 15px;
+  font-weight: 600 !important;
+}
+.cardNo-input{
+  height: 80px;
+  border: 2px solid #FED252;
+  border-radius: 15px;
+}
+.fa-credit-card{
+  font-size: 2.2em !important;
+  color: #E6E6E6 !important;
+}
+.credit-icon{
+  position: absolute;
+  left: 20px !important;
+}
+::-webkit-input-placeholder {
+  color: #CCCBCB !important;
+  font-size: 22px !important;
+
+}
+.form-control.focus, .form-control:focus {
+border-color: #FED252 !important;
+}
+.payment_button{
+  background-color: #1273EB;
+  color: white !important;
+  width: 700px;
+  height: 80px;
+  font-size: 30px !important;
+  border-radius: 15px;
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
+  .payment-title_text{
+    text-align: center;
+  }
+  .cardNo{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .cardYY,.cardMM,.cardCCV{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .payment_button{
+    width: 100%;
+    font-size: 25px !important;
+  }
   .display-u{
     display: none;
   }
@@ -898,10 +1026,35 @@ form input[type="email"] {
 .Packages-title {
   font-size: 23px;
 }
+label {
+  width: 100%;
+  font-size: 20px !important;
+}
+.text-center-mobile{
+  text-align: center;
+}
+.input-payment{
+  width: 100%;
+}
   }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) { 
+  .payment-title_text{
+    text-align: center;
+  }
+  .cardNo{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .cardYY,.cardMM,.cardCCV{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .payment_button{
+    width: 100%;
+    font-size: 25px !important;
+  }
   .display-u{
     display: none;
   }
@@ -1131,11 +1284,34 @@ form input[type="email"] {
 .Packages-title {
   font-size: 23px;
 }
+label {
+  width: 100%;
+  font-size: 20px !important;
+}
+.text-center-mobile{
+  text-align: center;
+}
+.input-payment{
+  width: 100%;
+}
  }
 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) { 
+  .justify-content-space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  label {
+    width: 190px
+  }
+  .input-payment{
+    width: 100%;
+  }
+  .justify-content-between-tablet{
+    justify-content: space-between !important ;
+  }
   .display-u{
     display: none;
     margin-right: -40px;
@@ -1280,23 +1456,71 @@ display: none;
   bottom: -36%;
   right: -9%;
 }
+.payment_info {
+  font-size: 20px;
+}
+.justify-content-space-evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+label {
+  width: 200px;
+  font-size: 20px !important;
+}
+
   }
   @media(width: 1366px){
     .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
       font-size: 17px !important ;
   }
   }
+  @media (max-width: 1400px) and (min-width: 1266px){
+    .cardYY, .cardMM, .cardCCV {
+      width: 100px;
+    }
+    .cardNo{
+      margin-right: 0.5rem;
+      width: 300px;
+    }
+    .cardNo-input{
+      width: 300px;
+    }
+    .input-payment{
+      margin-right: 1.5rem;
+    }
+  }
   @media (max-width: 1513px) and (min-width: 1401px){
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
-
+    label {
+      width: 220px;
+    }
+.justify-content-space-evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-payment{
+  margin-right: 1.3rem;
+}
+.cardYY, .cardMM, .cardCCV {
+  width: 90px;
+}
+.cardNo{
+  width: 400px;
+}
+.cardNo-input{
+  width: 400px;
+}
 }
 @media (min-width: 992px) and (max-width: 999px) {
 
   .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     font-size: 10px;
+  }
+  label {
+    width: 140px;
   }
     }
   @media (min-width: 1000px) and (max-width: 1265px) {
@@ -1330,6 +1554,24 @@ display: none;
 .btn-package {
   font-size: 14px !important;
 }
+.justify-content-space-evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+label {
+  width: 155px;
+  font-size: 20px !important;
+}
+.payment_info {
+  color: #B2B1B1;
+  font-size: 20px;
+}
+.cardYY, .cardMM, .cardCCV {
+  width: 90px;
+}
+.input-payment{
+  width: 100%;
+}
   }
 
 
@@ -1358,7 +1600,13 @@ display: none;
 .pt-12rem{
   padding-top: 12rem;
 }
-
+.justify-content-space-evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+.input-payment{
+  margin-right: 1rem !important;;
+}
 }
 .display-none{
   display: none;
