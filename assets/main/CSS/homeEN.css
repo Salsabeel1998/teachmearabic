@@ -73,7 +73,27 @@ body{
 .img-download{
     width:100px ;
 }
+.Packages-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+.Packages-title_text {
+    font-size: 20px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+    font-size: 17px;
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+    font-size: 21px;
+}
+.price {
+    font-size: 55px;
+}
+.btn-package {
+    font-size: 15px !important;
+}
 @media (max-width: 575px){
+
     .text-header, .text-header2 {
         font-size: 26px;
         margin-right: 10px;
@@ -98,6 +118,32 @@ body{
     .img-download {
         width: 130px;
     }
+    .Packages-title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+        font-size: 14px;
+    }
+    .Packages-title_text {
+        font-size: 15px;
+    }
+    .nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+        font-size: 17px;
+    }
+    .btn-package {
+        font-size: 12px !important;
+    }
+    .btn-package {
+        padding: 0.5rem 1.4rem !important;
+    }
+    .price {
+        font-size: 40px;
+    }
+    .nav-fill .nav-item {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) { 
     .section1 {
@@ -117,6 +163,32 @@ body{
     }
     .img-download {
         width: 130px;
+    }
+    .Packages-title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+        font-size: 14px;
+    }
+    .Packages-title_text {
+        font-size: 15px;
+    }
+    .nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+        font-size: 17px;
+    }
+    .btn-package {
+        font-size: 12px !important;
+    }
+    .btn-package {
+        padding: 0.5rem 1.4rem !important;
+    }
+    .price {
+        font-size: 40px;
+    }
+    .nav-fill .nav-item {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -184,6 +256,27 @@ body{
   .justify-content-center-mobile{
       padding-left: 13px;
   }
+  .Packages-title {
+    font-size: 25px;
+}
+.Packages-title_text {
+    font-size: 15px;
+}
+.m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+    font-size: 14px;
+}
+.nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+    font-size: 17px;
+}
+.price {
+    font-size: 50px;
+}
+.btn-package {
+    font-size: 13px !important;
+}
+.btn-package {
+    padding: 0.5rem 0.4rem !important;
+}
 }
 
 @media (min-width: 1514px) and (max-width: 1731px) {
@@ -193,7 +286,27 @@ body{
   }
   }
   @media (min-width: 1024px) and (max-width: 1200px) {
-
+    .Packages-title {
+        font-size: 30px;
+    }
+    .Packages-title_text {
+        font-size: 18px;
+    }
+    .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__head .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__body .m-datatable__row>.m-datatable__cell, .m-datatable.m-datatable--default.m-datatable--loaded>.m-datatable__table>.m-datatable__foot .m-datatable__row>.m-datatable__cell {
+        font-size: 14px;
+    }
+    .btn-package {
+        font-size: 13px !important;
+    }
+    .btn-package {
+        padding: 0.5rem 0rem !important;
+    }
+    .nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 50px;
+    }
   }
   @media (min-width: 992px) and (max-width: 999px) {
 
@@ -207,3 +320,6 @@ body{
   font-size: 9px;
 }
   }
+  .btn-package {
+    text-transform: capitalize !important;
+}
