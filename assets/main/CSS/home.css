@@ -687,7 +687,7 @@ form input[type="text"]:focus {
 }
 
 
-label {
+.package-label {
   width: 280px;
   border: 2px solid #FED252 !important;
   color: #CCCBCB !important;
@@ -1026,7 +1026,7 @@ form input[type="email"] {
 .Packages-title {
   font-size: 23px;
 }
-label {
+.package-label {
   width: 100%;
   font-size: 20px !important;
 }
@@ -1035,6 +1035,16 @@ label {
 }
 .input-payment{
   width: 100%;
+}
+.padding-span{
+  display: flex;
+  justify-content: center;
+}
+.input-span{
+  margin-top: 11px;
+}
+.credit-icon{
+  display: none !important;
 }
   }
 
@@ -1284,7 +1294,7 @@ form input[type="email"] {
 .Packages-title {
   font-size: 23px;
 }
-label {
+.package-label {
   width: 100%;
   font-size: 20px !important;
 }
@@ -1294,16 +1304,27 @@ label {
 .input-payment{
   width: 100%;
 }
+.padding-span{
+  display: flex;
+  justify-content: center;
+}
+.input-span{
+  margin-top: 11px;
+}
+.credit-icon{
+  display: none !important;
+}
  }
 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) { 
+ 
   .justify-content-space-evenly{
     display: flex;
     justify-content: space-evenly;
   }
-  label {
+  .package-label {
     width: 190px
   }
   .input-payment{
@@ -1431,6 +1452,13 @@ display: none;
 .price {
   font-size: 40px;
 }
+.padding-span{
+  display: flex;
+  justify-content: center;
+}
+.input-span{
+  margin-top: 11px;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -1463,7 +1491,7 @@ display: none;
   display: flex;
   justify-content: space-evenly;
 }
-label {
+.package-label {
   width: 200px;
   font-size: 20px !important;
 }
@@ -1494,7 +1522,7 @@ label {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
-    label {
+    .package-label {
       width: 220px;
     }
 .justify-content-space-evenly{
@@ -1519,7 +1547,7 @@ label {
   .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     font-size: 10px;
   }
-  label {
+  .package-label  {
     width: 140px;
   }
     }
@@ -1558,7 +1586,7 @@ label {
   display: flex;
   justify-content: space-evenly;
 }
-label {
+.package-label {
   width: 155px;
   font-size: 20px !important;
 }
@@ -1623,4 +1651,7 @@ form input[type="email"].input-english{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+}
+.package-label {
+  font-size: 22px !important;
 }
