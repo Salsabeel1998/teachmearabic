@@ -323,3 +323,17 @@ body{
   .btn-package {
     text-transform: capitalize !important;
 }
+.Packages-title {
+    font-size: 25px;
+}
+.payment-title_text {
+    font-size: 20px;
+}
+.payment_info {
+    font-weight: 400;
+    font-size: 17px;
+}
+.credit-icon {
+    right: 20px !important;
+    left: auto !important;
+}
