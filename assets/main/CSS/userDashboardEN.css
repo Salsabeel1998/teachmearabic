@@ -1,0 +1,101 @@
+body{
+    font-family: poppins;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    color: #AE251C;
+    font-weight: 600;
+
+}
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-text {
+    color: #6f727d;
+    font-weight: 400;
+    font-size: 13px;
+}
+.logout-link{
+    font-weight: 600;
+}
+.navbar-Portalet{
+    padding: 2.2rem 0.2rem !important;
+}
+.dash-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+.data {
+    font-weight: 400;
+}
+.payment_info {
+    font-size: 16px;
+}
+.btn-savePassword{
+    font-size: 16px !important;
+}
+.btn-SaveData{
+    text-transform: capitalize;
+    font-size: 16px !important;
+}
+.header-table-text {
+    font-size: 15px;
+}
+.data-table-text {
+    font-size: 14px;
+}
+.btn-upgrade {
+    font-weight: 500;
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+.btn-downgrade {
+    width: auto;
+    text-transform: capitalize;
+    height: 40px;
+    font-size: 14px !important;
+}
+.switch-text {
+    font-size: 15px;
+}
+table th {
+    font-size: 1rem;
+}
+table td {
+    font-size: 1.1rem;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+.btn-invoiceDetails {
+    font-size: 14px !important;
+}
+.navbar-collapse .navba-link .active .m-dropdown .nav-link {
+color: #AE251C;
+}
+.btn-edit-payment{
+text-transform: capitalize;
+}
+.btn-delete-payment{
+    text-transform: capitalize;
+}
+.expire-text {
+    font-weight: 400;
+}
+.visa-number {
+    font-weight: 500;
+}
+.paypal-email {
+    font-weight: 500;
+}
+.tap-link-payment{
+    font-size: 20px !important;
+    background-color: #f5f5f5!important;
+    border-radius: 15px;
+    width: 150px !important;
+    text-align: center;
+}
+.nav-pills .nav-link.active {
+    background-color: #ffffff !important;
+    border: 2px solid #C9372A;
+}
