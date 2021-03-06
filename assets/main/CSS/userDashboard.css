@@ -332,3 +332,45 @@ label {
     background-color: #ffffff !important;
     border: 2px solid #C9372A;
 }
+.m-dropdown.m-dropdown--header-bg-fill .m-dropdown__header{
+    background-color: #C9372A !important;
+}
+.flaticon-alert{
+    color: #707070;
+    font-size: 1.8rem !important;
+}
+.flaticon-alarm:before {
+    content: "\f197";
+    font-size: 1.8rem !important;
+}
+.m-badge.m-badge--dot-small{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border: 2px solid white;
+}
+.m-dropdown__toggle:hover {
+    text-decoration: none !important;
+}
+.m-radio>span, .m-checkbox>span {
+    height: 24px;
+    width: 24px;
+    background-color: white !important;
+}
+.m-radio.m-radio--success>input:checked ~ span {
+    border: 1px solid #ffcf58;
+    background-color: #ffcf58 !important
+}
+.m-radio.m-radio--success>span:after {
+    border: solid #c9372a;
+    background: #c9372a;
+}
+.m-radio, .m-checkbox {
+    margin-bottom: 5px;
+}
+.price-package{
+    font-size: 30px !important;
+}
+.btn-savePackage{
+    padding: .6rem 2.4rem !important;
+}

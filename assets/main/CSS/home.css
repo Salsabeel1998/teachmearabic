@@ -157,7 +157,7 @@ font-size: 40px;
   color: #C9372A;
   border-radius: 32px;
   position: absolute;
-  top: -90px;
+  top: 100%;
   width: 100%;
   left: 0;
   padding: 11px 5px;
@@ -1654,4 +1654,99 @@ form input[type="email"].input-english{
 }
 .package-label {
   font-size: 22px !important;
+}
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-text {
+  color: #6f727d;
+  font-size: 17px !important;
+  font-weight: 400;
+}
+.Blog{
+  background-image: url(../img/bg-blog.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.tilte-header-blog{
+  font-size: 48px;
+  font-weight: bold;
+  color: #C9372A;
+}
+.text-header-blog{
+  font-size: 20px;
+  text-align: center;
+}
+.m-widget19__title {
+  color: #292929 !important;
+  font-family: system-ui;
+  font-weight: bold;
+}
+.date-blog{
+  color: #AFAFAF;
+  font-size: 16px;
+  font-weight: normal;
+}
+.m-widget19__body{
+  color: #707070 !important;
+  font-size: 17px !important;
+}
+.raduis-blog{
+  border-radius: 10px;
+}
+.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  background-color: #C9372A!important;
+}
+.btn.m-btn--hover-brand:hover, .btn.m-btn--hover-brand.active, .btn.m-btn--hover-brand:active, .btn.m-btn--hover-brand:focus, .show>.btn.m-btn--hover-brand.dropdown-toggle {
+  border-color: #C9372A !important;
+  color: #fff !important;
+  background-color: #C9372A !important;
+}
+.m-portlet.m-portlet--full-height {
+  height: auto;
+}
+.search-blog{
+  font-family: system-ui;
+}
+.input-search-blog{
+  background-color: #F8F8F8 !important;
+  border: none !important;
+  font-size: 14px !important;
+  
+}
+.input-search-blog::-webkit-input-placeholder {
+  font-size: 12px !important;
+  color: #A7A7A7 !important;
+
+}
+.m-widget5 .m-widget5__item .m-widget5__content .m-widget5__section .m-widget5__title {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+.m-widget5 .m-widget5__item .m-widget5__content .m-widget5__pic>img {
+  width: 8.6rem;
+  border-radius: 4px;
+}
+.m-widget5 .m-widget5__item .m-widget5__content .m-widget5__section .m-widget5__desc {
+  font-size: .90rem;
+}
+.btn-subscripe-news{
+  font-size: 16px !important;
+  background-color: #C9372A;
+  border: 2px solid #FED252;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 10px !important;
+  padding: 0.7rem 3.4rem !important;
+}
+.bg-color{
+  background-color: #FBFBFB;
+}
+.faq-header{
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.faq-top{
+  margin-top: -10rem;
+}
+.faq-border{
+  border-radius: 10px;
 }

@@ -99,3 +99,14 @@ text-transform: capitalize;
     background-color: #ffffff !important;
     border: 2px solid #C9372A;
 }
+.btn-package {
+    font-size: 13px !important;
+    padding: 0.5rem 0.4rem !important;
+}
+@media (max-width: 575px){
+    .btn-package {
+        font-size: 9px !important;
+        font-weight: 500 !important;
+    }
+       
+}

@@ -66,6 +66,75 @@
                       <p class="nav-link">أهلا بك محمد!                      
                       </p>
                     </li>
+                    <li class="m-nav__item m-topbar__notifications m-topbar__notifications--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-center 	m-dropdown--mobile-full-width" m-dropdown-toggle="click"
+                    m-dropdown-persistent="1">
+                     <a href="#" class="m-nav__link m-dropdown__toggle d-flex" id="m_topbar_notification_icon">
+                       <span class="m-nav__link-badge m-badge m-badge--dot m-badge--dot-small m-badge--danger"></span>
+                       <span class="m-nav__link-icon"><i class="flaticon-alert"></i></span>
+                     </a>
+                     <div class="m-dropdown__wrapper">
+                       <span class="m-dropdown__arrow m-dropdown__arrow--center"></span>
+                       <div class="m-dropdown__inner">
+                         <div class="m-dropdown__header m--align-center" style="background: url(../../../assets/app/media/img/misc/notification_bg.jpg); background-size: cover;">
+                           <span class="m-dropdown__header-title">9 جديد</span>
+                         </div>
+                         <div class="m-dropdown__body">
+                           <div class="m-dropdown__content">
+                             <div class="tab-content">
+                               <div class="tab-pane active" id="topbar_notifications_notifications" role="tabpanel">
+                                 <div class="m-scrollable" data-scrollable="true" data-height="250" data-mobile-height="200">
+                                   <div class="m-list-timeline m-list-timeline--skin-light">
+                                     <div class="m-list-timeline__items">
+                                       <div class="m-list-timeline__item">
+                                         <span class="m-list-timeline__badge -m-list-timeline__badge--state-success"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">الآن</span>
+                                       </div>
+                                       <div class="m-list-timeline__item">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">14 دقيقة</span>
+                                       </div>
+                                       <div class="m-list-timeline__item">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">20 دقيقة</span>
+                                       </div>
+                                       <div class="m-list-timeline__item">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">ساعة</span>
+                                       </div>
+                                       <div class="m-list-timeline__item">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل - <a href="#" class="m-link">فحص</a></span>
+                                         <span class="m-list-timeline__time">ساعتين</span>
+                                       </div>
+                                       <div class="m-list-timeline__item m-list-timeline__item--read">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span href="" class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">7 ساعات</span>
+                                       </div>
+                                       <div class="m-list-timeline__item m-list-timeline__item--read">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">3 ساعات</span>
+                                       </div>
+                                       <div class="m-list-timeline__item">
+                                         <span class="m-list-timeline__badge"></span>
+                                         <span class="m-list-timeline__text">هذا النص هو مثال لنص يمكن أن يستبدل</span>
+                                         <span class="m-list-timeline__time">5 ساعات</span>
+                                       </div>
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Profile.html">الحساب</a>
                       <span class="sr-only">(current)</span>
@@ -167,7 +236,7 @@
                                 <div class="col-lg-3  pb-3 table-border-bottom pt-lg-0 pt-4">
                                     <p class="header-table-text">إدارة الباقة</p>
                                     <div class="row pt-lg-4">
-                                        <button class="btn btn-lg data-table-text btn-upgrade">ترقية</button> <button class="btn btn-lg data-table-text btn-downgrade">تخفيض</button>
+                                        <button class="btn btn-lg data-table-text btn-upgrade"  data-toggle="modal" data-target="#m_modal_1">ترقية</button> <button class="btn btn-lg data-table-text btn-downgrade" data-toggle="modal" data-target="#m_modal_1">تخفيض</button>
                                     </div>
                                 </div>
                                 <div class="col-lg-3  pb-3 table-border-bottom pt-lg-0 pt-4">
@@ -204,7 +273,60 @@
               
             </div>
             </div>
+						<!--begin::Modal-->
+						<div class="modal fade" id="m_modal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">اختيار الباقة</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-3 col-6 display-none">
+                        <label class="m-radio m-radio--success">
+                          <input type="radio" name="example_2" value="2">
+                          <span></span>
+                        </label>
+                        <div class="box-package">
+                          <p class="price price-package pt-lg-5">20$</p>
+                          <button class="btn btn-lg btn-package bg-yellow text-red">الباقة المجانية</button>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-6">
+                        <label class="m-radio m-radio--success">
+                          <input type="radio" name="example_2" value="1" checked>
+                          <span></span>
+                        </label>
+                        <div class="box-package">
+                          <p class="price price-package pt-lg-5">29$</p>
+                          <button class="btn btn-lg btn-package bg-green text-white ml-0">الباقة الأساسية</button>
+                      </div>
+                      </div>
+                      <div class="col-lg-3 col-6">
+                        <label class="m-radio m-radio--success">
+                          <input type="radio" name="example_2" value="2">
+                          <span></span>
+                        </label>
+                        <div class="box-package">
+                          <p class="price price-package pt-lg-5">37$</p>
+                          <button class="btn btn-lg btn-package bg-blue text-white">الباقة الحصرية</button>
+                      </div>
+                      </div>
 
+                    </div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-lg btn-secondary btn-Close" data-dismiss="modal">اغلاق</button>
+										<button type="button" class="btn btn-lg btn-SaveData btn-savePackage">حفظ </button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--end::Modal-->
           </main>
 
 		<!--begin::Global Theme Bundle -->
