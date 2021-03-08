@@ -1750,3 +1750,21 @@ form input[type="email"].input-english{
 .faq-border{
   border-radius: 10px;
 }
+.m-accordion__item-content{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: system-ui;
+}
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-width {
+    min-width: 600px;
+    display: flex;
+    justify-content: inherit;
+    margin-right: 30px;
+  }
+
+}
+.justify-flex-end{
+  justify-content: flex-end;
+}
+

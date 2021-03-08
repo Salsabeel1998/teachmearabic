@@ -337,3 +337,18 @@ body{
     right: 20px !important;
     left: auto !important;
 }
+.m-widget19__body {
+    font-size: 15px !important;
+}
+.m-widget5 .m-widget5__item .m-widget5__content .m-widget5__section .m-widget5__title {
+    font-size: 1rem;
+}
+.date-blog {
+    font-size: 14px;
+}
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-text {
+    color: #6f727d;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+

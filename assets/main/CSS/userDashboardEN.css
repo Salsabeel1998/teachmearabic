@@ -110,3 +110,8 @@ text-transform: capitalize;
     }
        
 }
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-width {
+     min-width: 760px !important;
+ } 
+ }
