@@ -196,6 +196,204 @@ label {
 .dataTables_info{
     display: none;
 }
+.dataTables_length labe.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #707070;
+    transition: .35s;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    border-left: none;
+}
+@media (max-width: 992px){
+    .navbar-collapse {
+        display: initial;
+        flex-direction: column;
+    }
+}
+@media (max-width: 575px){
+    .divider-new, .navbar .nav-flex-icons {
+        padding-right: 21px;
+        padding-left: 21px;
+    }
+}
+body{
+    background-color: #F5F5F5;
+}
+.card, .navbar, .pagination .page-item.active .page-link {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 0%), 0 2px 10px 0 rgb(0 0 0 / 9%);
+}
+
+
+
+
+.nav-sidebar{
+    list-style: none;
+    padding-inline-start: 10px;
+}
+.wrapper .sidebar {
+    padding: 30px 0px;
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05)
+}
+
+.wrapper .sidebar ul li a {
+    color: #202020;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 400;
+}
+.wrapper .sidebar ul li a:hover {
+text-decoration: none;
+}
+.wrapper .sidebar ul li a .fa {
+    width: 25px
+}
+.wrapper .sidebar ul li.active {
+    background-color: #F5F5F5;
+}
+
+.wrapper .sidebar ul li:hover {
+    background-color: #7d777717
+}
+
+.wrapper .sidebar ul li:hover a {
+    color:#202020
+}
+[class^="la-"], [class*=" la-"] {
+    font-size: 1.5rem;
+}
+.edit-Ifo{
+    font-size: 20px;
+    color: #C9372A;
+    text-decoration: underline;
+}
+.edit-Ifo:hover {
+    color: #C9372A;
+}
+.dash-title{
+    font-size: 20px;
+    color: #C9372A;
+}
+.data{
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #A0A0A0;
+}
+.info{
+    font-size: 17px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #212121;
+}
+.input-payment {
+     margin-right: 0 !important; 
+     height: 70px;
+     color: #666666!important;
+     font-size: 17px !important;
+     width: 100%;
+}
+.payment_info {
+    color: #212121;
+    font-size: 20px;
+}
+.btn-SaveData{
+    color: white !important;
+    font-size: 20px !important;
+    background-color: #C9372A;
+    border: 2px solid #FED252;
+    border-radius: 15px;
+}
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-text {
+    color: #6f727d;
+    font-weight: 600;
+    font-size: 16px;
+}
+label {
+    width: 0;
+    border: 0px !important;
+}
+.m-switch input:checked ~ span:before {
+    background-color: #FED252;
+}
+.m-switch input:checked ~ span:after {
+    background-color: white;
+}
+.m-switch input:empty ~ span:after {
+    background-color: #ffffff;
+}
+.switch-text{
+    font-size: 18px;
+    color: #666666;
+}
+.label-switch{
+    width: 80px;
+}
+.m-portlet .m-portlet__head .m-portlet__head-text {
+    color: #C9372A;
+    font-size: 25px !important;
+}
+.m-portlet .m-portlet__head {
+    border-bottom: none;
+    background-color: #F5F5F5;
+}
+.header-table-text{
+    font-size: 20px;
+    color: #212121;
+}
+.data-table-text{
+    font-size: 18px;
+    color: #979797;
+}
+.btn-upgrade{
+    background-color: #FED252;
+    color: #c9372a !important;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px !important;
+    padding: 0rem 1.4rem !important;
+}
+.btn-downgrade{
+    background-color: #ffffff;
+    color: #c9372a !important;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #FED252 !important;
+    border-radius: 6px;
+    font-size: 18px !important;
+    padding: 0rem 1.4rem !important;
+}
+.span-switch{
+    float: inherit !important;
+}
+
+@media (max-width: 575px) {
+    .table-border-bottom{
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+.dataTables_wrapper .dataTable th.dt-right, .dataTables_wrapper .dataTable td.dt-right {
+    text-align: right;
+}
+.dataTables_length select.custom-select{
+    display: none;
+}
+.dataTables_info{
+    display: none;
+}
 .dataTables_length label{
     display: none;
 }
