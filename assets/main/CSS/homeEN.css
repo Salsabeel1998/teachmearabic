@@ -396,6 +396,10 @@ display: none;
     font-weight: 400;
 }
 
+.list-unstyled .text-content-condition{
+    margin-left: 10px;
+    margin-right: 0px;
+  }
 @media (min-width: 992px){
     .link-nav-en{
         font-size: 15px !important;
