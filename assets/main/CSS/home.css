@@ -1090,6 +1090,63 @@ border-top: 7px solid #FED252;
   font-weight: bold;
   font-size: 20px;
 }
+.Condition-Title{
+  color: white;
+  font-weight: bold;
+  font-family: system-ui;
+
+}
+/***********Terms Of Use **************/
+.termOfUse{
+  background-color: #C9372A;
+  padding-top: 11rem;
+    padding-bottom: 9rem;
+}
+.breadcrumbs-section{
+  background-color: #FAFAFA;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.header-condition{
+  color: #c9372a;
+}
+.text-content-header{
+  font-size: 15px;
+    line-height: 30px;
+}
+.text-content-condition{
+  font-size: 15px;
+  line-height: 30px;
+  color: #777;
+}
+.underline{
+  text-decoration: underline;
+}
+.list-unstyled{
+  list-style: none;
+}
+.fa-square {
+  color: #C9372A;
+  font-size: 0.8rem !important;
+  line-height: 1.375rem;
+  margin-top: 5px;
+}
+.list-unstyled .text-content-condition{
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.link-site{
+  color: #c9372a
+}
+.backToHome{
+  text-decoration: underline;
+  color: #777;
+  font-size: 15px;
+}
+.termOfUse-span{
+  color: #777;
+  font-size: 15px;
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
   .payment-title_text{
@@ -1673,6 +1730,9 @@ form input[type="email"] {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) { 
+  .img-red-charachter{
+    display: none;
+  }
   .justify-content-md-evenly{
     justify-content: space-evenly;
   }
